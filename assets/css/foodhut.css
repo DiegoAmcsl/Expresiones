@@ -11271,7 +11271,7 @@ pre {
 }
 .has-img-bg2 {
   background: url(../imgs/etiquetas.webp) no-repeat center center;
-  background-size: contain;
+  background-size: cover;
 }
 .has-bg-overlay {
   position: relative;
