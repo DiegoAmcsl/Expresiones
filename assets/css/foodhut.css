@@ -926,7 +926,7 @@ section {
 @keyframes scrolling {
 
     0% {
-        transform: translateX(80%);
+        transform: translateX(100%);
     }
 
     100% {
@@ -944,27 +944,8 @@ section {
     width: 7rem;
     margin-bottom: 1rem;
 }
-/* @media (min-width: 320px) {
-  .col-sm-1 {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 15.33333%;
-        -ms-flex: 0 0 15.33333%;
-            flex: 0 0 15.33333%;
-    max-width: 15.33333%;
-  }
-  .col-sm-2 {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 30.66667%;
-        -ms-flex: 0 0 30.66667%;
-            flex: 0 0 30.66667%;
-    max-width: 30.66667%;
-  }
-} */
 
 @media (min-width: 576px) {
-
-  
-
   .col-sm {
     -webkit-flex-basis: 0;
         -ms-flex-preferred-size: 0;
@@ -11282,10 +11263,10 @@ pre {
 /*Imagene banner*/  
 .header {
   height: 100vh;
-  max-height: 900px;
+  /* max-height: 900px; */
   background: url(../imgs/banner.webp) no-repeat center center fixed;
   background-size: cover;
-  min-height: 750px;
+  /* min-height: 750px; */
 }
 
 .header .overlay {
