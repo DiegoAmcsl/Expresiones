@@ -11283,14 +11283,14 @@ pre {
 .header {
   height: 100vh;
   max-height: 900px;
-  background: url(../imgs/main.jpg) no-repeat center center fixed;
+  background: url(../imgs/banner.webp) no-repeat center center fixed;
   background-size: cover;
   min-height: 750px;
 }
 
 .header .overlay {
   height: 100%;
-  background: rgba(33, 37, 41, 0.85);
+  background: rgba(33, 37, 41, 0.3);
   display: -webkit-flex;
   display: -ms-flex;
   display: -webkit-box;
